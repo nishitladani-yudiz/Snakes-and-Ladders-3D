@@ -5,7 +5,7 @@ using UnityEngine;
 public class Route : MonoBehaviour
 {
     Transform[] nodes;
-    List<Transform> nodeList = new List<Transform>();
+    public List<Transform> nodeList = new List<Transform>();
     // Start is called before the first frame update
     void Start()
     {
